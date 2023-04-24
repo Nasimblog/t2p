@@ -401,35 +401,18 @@ def XYZ():
     print(f"{RED}[00] {WHITE}EXIT PROGRAM ")
     print(f"\033[1;91m====================================================")
     WASIM = input("[√] CHOOSE : ")
-  create_audio("Hi sir ,I am love bary,choose 1 for 🦋⃟𝗕𝗢𝗦𝗦✮⃝ 𝗡𝗔𝗦𝗜𝗠 crack","test.mp3")
-    play_audio("test.mp3")
-    opt = input('\n\x1b[1;32m╠ 𝑪𝑯𝑶𝑶𝑺𝑬_\033[1;91m: \033[1;31m')
-    if opt in ["1","01"]:
-        _EMRAN_("xdg-open https://github.com/Nasimblog")
-        create_audio("Starting 🦋⃟𝗕𝗢𝗦𝗦✮⃝ 𝗡𝗔𝗦𝗜𝗠 crack ,I love you","test2.mp3")
-        play_audio("test2.mp3")
-        menu()
-    if opt in ["2","02"]:
-        create_audio("Follow our group sir","test3.mp3")
-        play_audio("test3.mp3")
-        _EMRAN_('xdg-open https://github.com/Nasimblog')
-
-    if opt in["3","03"]:
-        create_audio("Follow our group sir","tes3.mp3")
-        play_audio("tes3.mp3")
-        
-        _EMRAN_('xdg-open https://github.com/Nasimblog')
-    if opt in["0","00"]:
-        
-        
-        create_audio("good bye my boss ,I love you","test4.mp3")
-        play_audio("test4.mp3")
-        sys.exit()
-        
-    if opt not in ['h','H','r','R','O','o','n','N','e','E','1','2','3','4','5','01','02','03','04','0','6','06','00']:
-        create_audio("choose the rigth option ","test5.mp3")
-        play_audio("test5.mp3")
-        EMRAN()
+    if WASIM in ["1","01"]:
+        passx()
+    elif WASIM in ["2","02"]:
+        os.system("xdg-open https://t.me/bothacker999")
+        XYZ()
+    elif WASIM in ["3","03"]:
+        os.system("xdg-open https://www.youtube.com/@wasim-360")
+        XYZ()
+    elif WASIM in ["0","00"]:
+       exit()
+    else:
+        print('\033[1;31mINCORECT OPTION !!');XYZ()
 
 def passx():
     os.system("clear")
@@ -440,35 +423,18 @@ def passx():
     print(f"{RED}[02] {WHITE}AUTO PASS 7 AND 11 DIGITS  {GREEN}[FAST]")
     print(f"{RED}[03] {WHITE}AUTO ULTIMATE PASS         {GREEN}[NORMAL]")
     print(f"\033[1;91m====================================================")
-    create_audio("Hi sir ,I am love bary,choose 1 for 🦋⃟𝗕𝗢𝗦𝗦✮⃝ 𝗡𝗔𝗦𝗜𝗠 crack","test.mp3")
-    play_audio("test.mp3")
-    opt = input('\n\x1b[1;32m╠ 𝑪𝑯𝑶𝑶𝑺𝑬_\033[1;91m: \033[1;31m')
-    if opt in ["1","01"]:
-        _EMRAN_("xdg-open https://github.com/Nasimblog")
-        create_audio("Starting 🦋⃟𝗕𝗢𝗦𝗦✮⃝ 𝗡𝗔𝗦𝗜𝗠 crack ,I love you","test2.mp3")
-        play_audio("test2.mp3")
-        menu()
-    if opt in ["2","02"]:
-        create_audio("Follow our group sir","test3.mp3")
-        play_audio("test3.mp3")
-        _EMRAN_('xdg-open https://github.com/Nasimblog')
+    WASIM = input("[√] CHOOSE : ")
+    if WASIM in ["1","01"]:
+        pass1()
+    elif WASIM in ["2","02"]:
+        pass2()
+    elif WASIM in ["3","03"]:
+        Ulti()
+    elif WASIM in ["4","04"]:
+        pass3()
+    else:
+        print('\033[1;31mINCORECT OPTION !!');XYZ()
 
-    if opt in["3","03"]:
-        create_audio("Follow our group sir","tes3.mp3")
-        play_audio("tes3.mp3")
-        
-        _EMRAN_('xdg-open https://github.com/Nasimblog')
-    if opt in["0","00"]:
-        
-        
-        create_audio("good bye my boss ,I love you","test4.mp3")
-        play_audio("test4.mp3")
-        sys.exit()
-        
-    if opt not in ['h','H','r','R','O','o','n','N','e','E','1','2','3','4','5','01','02','03','04','0','6','06','00']:
-        create_audio("choose the rigth option ","test5.mp3")
-        play_audio("test5.mp3")
-        EMRAN()
 def pass1():
     os.system("clear")
     jalan(logo)
