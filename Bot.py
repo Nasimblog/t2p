@@ -392,7 +392,7 @@ def XYZ():
     clear()
     print('           \x1b[97m[\033[37;41m  M A I N   M E N U   \033[0;m] ')
     print(f'{BLUE}══════════════════════════════════════════════════')
-    print(f"\t      {WHITE}[{EXTRA} {NASIMT()} {WHITE}]")
+    print(f"\t      {WHITE}[{EXTRA} {WASIMT()} {WHITE}]")
     print(f" {GREEN}PREMIUM USER          {WHITE}: {GREEN}Mr {ORANGE} {NameX}")
     print(f"{BLUE}══════════════════════════════════════════════════")
     print(f"{RED}[01] {WHITE}PAK RANDOM CLONE ")
